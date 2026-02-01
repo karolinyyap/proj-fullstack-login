@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LoginPage
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
@@ -25,3 +26,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# proj-fullstack-login
+Projeto feito para um tutorial fullstack de Angular 17 e Java Spring.
+
+Com base no vídeo: **PROJETO FULLSTACK APP DE LOGIN ANGULAR 17 + JAVA SPRING**
+da Fernanda Kipper no Youtube.
+Links: 
+Parte 1 - FRONTEND: _https://youtu.be/6qbuuPM_de4?si=lYwzl648X902YFzz_
+Parte 2 - BACKEND: _https://youtu.be/tJCyNV1G0P4?si=iUbu9AxJexc7VOiq_
+>>>>>>> 951461e35075d650e6a32d3b25d56a640381b02c
