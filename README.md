@@ -7,4 +7,3 @@ da Fernanda Kipper no Youtube.
 Links: 
 Parte 1 - FRONTEND: _https://youtu.be/6qbuuPM_de4?si=lYwzl648X902YFzz_
 Parte 2 - BACKEND: _https://youtu.be/tJCyNV1G0P4?si=iUbu9AxJexc7VOiq_
->>>>>>> 951461e35075d650e6a32d3b25d56a640381b02c
