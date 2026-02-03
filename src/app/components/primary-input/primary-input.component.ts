@@ -16,30 +16,32 @@ type InputTypes = "text" | "email" | "password"
   templateUrl: './primary-input.component.html',
   styleUrl: './primary-input.component.css'
 })
-export class PrimaryInputComponent implements ControlValueAccessor{
+export class PrimaryInputComponent implements ControlValueAccessor {
   @Input() type: InputTypes = "text";
   @Input() placeholder: string = "";
-  @Input() inputName: string = "";
   @Input() label: string = "";
 
-  value: string = ''
-  onChange: any = () => {}
-  onTouched: any = () => {}
+  value = '';
 
-  onInput (event: Event){
-    const value = (event.target as HTMLInputElement).value
-    this.onChange(value)
+  onChange = (_: any) => {};
+  onTouched = () => {};
+
+  onInput(event: Event) {
+    const value = (event.target as HTMLInputElement).value;
+    this.value = value;
+    this.onChange(value);
   }
 
-  writeValue(value: any): void{
-    this.value = value
+  writeValue(value: any): void {
+    this.value = value ?? '';
   }
 
   registerOnChange(fn: any): void {
-    this.onChange = fn
+    this.onChange = fn;
   }
 
   registerOnTouched(fn: any): void {
-    this.onInput = fn
+    this.onTouched = fn;
   }
+
 }

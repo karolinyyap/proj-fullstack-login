@@ -33,7 +33,7 @@ section {
 
 .main-section h2 {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 600px;
   text-align: center;
   max-width: 300px;
 }
@@ -48,13 +48,14 @@ section {
   flex-grow: 0.6;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start; 
+  padding-top: 40px;
 }
 
 .form-section h2 {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 45px;
+  margin-bottom: 24px;
   margin-top: 20px;
 }
 
@@ -66,6 +67,7 @@ section {
   border: none;
   background-color: transparent;
   padding: 12px 24px;
+  cursor: pointer;
 }
 
 .form-section .btn-primary {
@@ -85,7 +87,7 @@ section {
   justify-content: center;
   align-items: center;
   width: 100%;
-  gap: 30px;
+  gap: 20px;
 }
 
 .dividir {
